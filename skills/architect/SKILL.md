@@ -1,6 +1,6 @@
 ---
-name: vas-architect
-description: Use for /vas-architect after a spec is approved. Turns the spec into architecture options, an ADR, a contract and a test skeleton. No implementation.
+name: architect
+description: Use for /architect after a spec is approved. Turns the spec into architecture options, an ADR, a contract and a test skeleton. No implementation.
 ---
 
 1. Propose 2 structurally different architectures for the main decision. For each: how it works, pros, cons, how it handles the non-functional points from the spec.
