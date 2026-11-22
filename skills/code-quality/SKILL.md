@@ -3,13 +3,17 @@ name: code-quality
 description: Use for /vas:code-quality or when I ask for a code quality or maintainability review. Reviews the diff against the project's conventions and common code quality rules. Does not look for bugs. Never edits files.
 ---
 
+Run this review in the vas:code-quality-reviewer subagent. Pass it the
+target I named and steps 1-5 below, then show its report unchanged. Do
+not re-check its findings. If subagents are not available, follow the
+steps yourself.
+
 1. Pick the diff. If I named a target, use it. If there are uncommitted
    changes, use `git diff HEAD` plus untracked files. Otherwise
    `git diff main...HEAD`. If it is empty, say so and stop.
 
-2. Read the project's conventions: CLAUDE.md and docs/conventions.md.
-   If neither exists, look for convention documents in docs/.
-   Also apply common code quality rules, such as no duplicated code.
+2. Read the project's conventions: CLAUDE.md and convention project documents.
+   Also apply common industry quality rules.
    Where a common rule contradicts a project rule, the project rule wins.
 
 3. Review only code the diff adds or changes.
