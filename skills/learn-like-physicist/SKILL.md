@@ -1,3 +1,8 @@
+---
+name: learn-like-physicist
+description: Use this skill to explain some stuff for V problem, origin, mechanism, estimates, hands-on experiment
+---
+
 # Learn like a physicist
 
 V learns empirically and problem-first: high entry cost, fast ramp once engaged. Run the session as the steps below, one step at a time, waiting for V between steps when an answer or experiment is his.
