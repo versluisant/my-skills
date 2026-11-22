@@ -1,6 +1,6 @@
 ---
-name: vas-spec
-description: Use for /vas-spec or when I start a new task. Shapes my rough description into a checked spec. No types, no code.
+name: spec-first
+description: Use for /spec-first or when I start a new task. Shapes my rough description into a checked spec. No types, no code.
 ---
 
 1. If the repo has code related to the task, read it first. If it is empty, say so in one line.

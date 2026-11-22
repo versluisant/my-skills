@@ -1,5 +1,5 @@
 ---
-name: vas-reviewer
+name: code-reviewer
 description: Use before I commit. Reviews the diff against main. Reports, never edits.
 model: opus
 tools: Read, Grep, Glob, Bash
