@@ -20,3 +20,7 @@ How to write: plain words, short sentences. Draw the structure and the main flow
 5. Write the contract: types, function signatures, error codes, and the exact analytics event names and properties from the spec's business criteria. Every error and edge case from the spec must be visible in it.
 6. Write the test skeleton: one test.todo per rule from the spec, named as the rule.
    Stop and wait for my "ok". Do not implement.
+
+Hard stop:
+- Nothing gets built in this skill. No product code, no function bodies, no installs, no migrations, no implementation skills. Only the ADR, the contract and test.todo lines. Reading code is fine.
+- After my "ok" on the test skeleton, the skill ends. Say the next step is to implement and stop. Do not start implementing yourself.

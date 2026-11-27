@@ -51,3 +51,7 @@ Part 3: the spec
     the understanding, the chosen approach, its resources, what was cut or postponed, the next parts if split, the spec, the business criteria and the definition of done.
 
 No parts of the system, data flows, types or contracts. Those belong to /architect.
+
+Hard stop:
+- Nothing gets built in this skill. No product code, no scaffolding, no installs, no migrations, no implementation skills. Reading code is fine.
+- After my "ok" and the save, the skill ends. Say the next step is /architect and stop. Do not start /architect yourself.
