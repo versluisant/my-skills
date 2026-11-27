@@ -10,7 +10,9 @@ How to write: so I can hold the feature in my head and picture it.
 - Show one concrete example: who does what, step by step, and what they see.
 - Do not draw sketches or diagrams in the console. Describe what I would see in words.
   If a picture would really help, offer to make an HTML page instead.
-- Tables to compare. Lists for steps. No long paragraphs.
+- Lists for steps. No long paragraphs.
+- No comparison tables with many options and many rows. I cannot hold them in my head.
+- Every message fits on one screen. If it does not, cut it.
 
 Part 1: understanding
 
@@ -25,14 +27,16 @@ Part 1: understanding
 
 Part 2: the approach
 
-5. List the real approaches, not only the 2-3 you like. For each:
-   - how it works, in 1-2 lines
-   - compromises: what I gain, what I lose
-   - non-functional limits only if they rule this approach in or out (e.g. too slow, too costly)
-   - resources involved: code (which packages, routes, tools), data (tables), cloud, external services, UI
-   - size, from those resources: small (one PR), medium (a few PRs, one feature), epic (must be split)
-   - what from Part 1 it makes harder or impossible
-   Show them side by side. Check facts you are not sure of before you list them.
+5. Think through all the real approaches yourself: how each works, what I gain and lose,
+   limits that rule it in or out, resources (code, tables, cloud, external services, UI),
+   size (small = one PR, medium = a few PRs, epic = must be split), and what from Part 1 it
+   makes harder. Check facts you are not sure of.
+   Do not show approaches that are clearly worse. Drop them yourself.
+   Show me only the 2-3 that are worth choosing between. For each, at most 3 short lines:
+   - what I get, in user words (what I see or can do)
+   - what it costs or what I lose
+   - size
+   Say which one you recommend. Keep resources and other details to yourself unless I ask.
 6. Discuss the approaches with me, one question at a time, until one is left.
    When cutting something from the scope removes resources or lowers the size, say so: scope can shrink to fit an approach.
 7. If the chosen approach is epic:
