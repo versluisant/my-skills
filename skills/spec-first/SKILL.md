@@ -39,10 +39,12 @@ Part 2: the approach
    Say which one you recommend. Keep resources and other details to yourself unless I ask.
 6. Discuss the approaches with me, one question at a time, until one is left.
    When cutting something from the scope removes resources or lowers the size, say so: scope can shrink to fit an approach.
+   Never cut anything I asked for on your own. Name what you want to cut and ask me.
+   If I approve, it is gone: it is not written anywhere in the spec. If I do not approve, it stays.
 7. If the chosen approach is epic:
-   - First try to shrink it to medium: name what to cut or postpone, and what I lose without it.
+   - First try to shrink it to medium: name what to cut, and what I lose without it. Ask me to approve the cut.
    - If it cannot shrink without losing what makes it useful, propose a split: parts in order, each one usable on its own, each with its size.
-     We spec only the first part now; the others are saved as next parts.
+     We spec only the first part now.
 
 Part 3: the spec
 
@@ -52,6 +54,6 @@ Part 3: the spec
    If my prompt gave criteria, check they do not contradict the spec, and say so if they do.
 10. Definition of done: a checklist with one line per rule from the spec.
 11. Stop and wait for my "ok". Then save to docs/specs/<task-name>.<size>.md (e.g. docs/specs/agent-push.medium.md):
-    the understanding, the chosen approach, its resources, what was cut or postponed, the next parts if split, the spec, the business criteria and the definition of done.
+    the understanding, the chosen approach, its resources, the spec, the business criteria and the definition of done.
 
 No parts of the system, data flows, types or contracts. Those belong to /architect.
